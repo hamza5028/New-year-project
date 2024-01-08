@@ -1,0 +1,91 @@
+.fast-div{
+    background-repeat: no-repeat;
+    width: 800px; height:655px;
+    border-radius: 18px;
+    background-position: center;
+    background-size: 100%;
+}
+.new{
+    color: #fcfbfb;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 52px;
+font-style: normal;
+font-weight: 76%;
+line-height: 95px;
+}
+.second-new-year{
+    text-align: center;
+    mar
+}
+    
+.OFF{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 90px;
+font-weight: 700;
+}
+.HOLLIDA{
+    color: rgb(153, 47, 47);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.ALL{
+    color: #0a011b;
+margin-top: 0px;
+text-align: center;
+font-family: Inter;
+font-size: 50px;
+font-weight: 700;
+}
+.img{
+    width: 780px;
+    height: 480;
+}
+.img-3rd{
+    background-repeat: no-repeat;
+    width: 1320px;
+height: 600px;
+display: flex;
+justify-content:space-between;
+}
+.pragraph-bolog-3rd{
+    margin-left: 70px;}
+.wellcome-3rd{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing:5px;
+}
+.paragraph-3rd{
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.join-3rd{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+.img-bolog-3rd{
+    margin-top: 90px;
+    margin-right: 200px;
+   margin-left: 90px;
+   width: 319.83px;
+   height: 464.662px;
+}
+   
