@@ -1,6 +1,6 @@
 
 .fast-div{  padding:50px;
-    margin: 50px;
+    margin: 50px auto;
     background-image: url(resources/Banner\ Image.png);
     background-repeat: no-repeat;
     width: 1320px;
@@ -75,12 +75,16 @@ justify-content:space-between;
 .pragraph-bolog-3rd{
     margin-left: 70px;}
 .wellcome-3rd{
+    max-width: 1320px;
+    width: 82.5%;
+    margin: 120px auto;
     color: #FFF;
 font-family: Merriweather;
 font-size: 64px;
 font-weight: 900;
 line-height: 88px;
 letter-spacing:5px;
+
 }
 .paragraph-3rd{
     color: rgba(255, 255, 255, 0.80);
@@ -105,6 +109,16 @@ line-height: 30px;
    width: 319.83px;
    height: 464.662px;
 }
+/* thik korte hobe*/
+.join-now-pleace{
+    width: 1320px;
+height: 482px;
+flex-shrink: 0;
+background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+text-align: center;
+align-items: center;
+justify-items: center;
+}
 .forth-div-fast{
     text-align: center;
     font-size: 10px;
@@ -117,9 +131,32 @@ background-color: rgb(243, 210, 210);
 margin-top: 70px;
 border-radius: 10px;
 }
-.join{
-    color: #f00606;
-/*background-color: red;*/
+.assignment-1{
+    width: 80%;
+    max-width: 1320px;
+    height: 482px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 18px;
+    margin: 120px auto;
+    text-align: center;
+}
+.all-class p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+button{
+    border-radius: 8px;
+background: #F00;
+border: 0px;
+padding: 15px 20px;
+color: #FFF;
+
 text-align: center;
 font-family: Inter;
 font-size: 20px;
@@ -128,8 +165,53 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
 }
+.all-class{
+    padding-top:110px ;
+}
+.span-1{
+    color: #F00;
+}
+
+/*.join{
+    color: #f00606;
+ackground-color: red;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}*/
+.button-join{
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+/* Goll border
+.gol-border{
+    
+}*/
 .display-flex{
     display: flex;
+    
+    justify-content: center;
+}
+.goll-border-1{
+    padding-right:35px;
+   border-radius: 10px;
 }
 .new{
     color: rgb(247, 7, 7);
@@ -160,6 +242,17 @@ text-transform: capitalize;
 .Image{
     width: 364.844px;
 height: 364.844px;
+padding: 30px;
+flex-shrink: 0;
+border-radius: 364.844px;
+border-radius: 463px;
+/*width: 463px;
+height: 463px;*/
+flex-shrink: 0;
+border: 15px solid #F00;
+}
+.goll-border-2{
+    padding-left: 40px;
 }
 .flex{
     color: #F00;
@@ -224,16 +317,20 @@ line-height: 32px;
     text-align: center;
 }
 .Group-75{
-    background-position:;
-    display: flex;
+    background-position:bottom;
+   /* display: flex;*/
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom;*/
     
 }
-.meye-tay{
-.best{
-    color: #F00;
 
+.six-pic{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.best-6pic{
+    color: #F00;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
@@ -256,6 +353,12 @@ line-height: normal;
     font-weight: 400;
     line-height: 32px;
 }
+.sex-picture img{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
 .last-up{
     background-color: rgb(192, 158, 158);
     text-align: center;
@@ -273,14 +376,141 @@ line-height: normal;
     justify-content: center;
     text-align: center;
 }
+.icon-flex-dis{
+    display: flex;
+    justify-content:space-between;
+    
+}
 .dis-flex{
     display: flex;
     color: #fcfbfb;
+    
 }
 .last{
     background-color: #070211;
 
 }
-.last-flex{
+.img-center-1{
+    text-align: center;
     justify-content: center;
+    align-items: center;
+    padding-left: 1000px;
+}
+.last-flex{
+   /* justify-content: center;
+    justify-content: center;*/
+    text-align: center;
+}
+/* wellcome section*/
+.section-1{
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto;
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(resources/Vectorrr.png);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wellcome{
+    display: flex;
+    margin-left: 50px;
+}
+.wellcome-to{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+width: 642px;
+}
+.wellcome-image{
+    margin-left: 50px;
+    padding-left: 60px;
+    padding-top: 90px;
+}
+.Dolor-sit-amet{
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */   
+    width: 697px; 
+}
+.last-fotter{
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+height: 609px;
+flex-shrink: 0;
+}
+.last-head-1{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.last-head-2{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-right: 600px;
+}
+.email{
+    color: rgba(7, 2, 17, 0.30);
+margin-bottom: 20px;
+padding-left: 20px;
+text-align: left;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+outline: none;
+width: 640px;
+height: 72px;
+flex-shrink: 0;
+/*border-radius: 50px;*/
+background: #FFF;
+}
+.sub{
+    color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+border: none;
+outline: none;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+width: 210px;
+height: 73px;
+flex-shrink: 0;
+margin-bottom: 20px;
+}
+/*.from-1{
+    width: 648px;
+height: 72px;
+
+
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;*/
 }
